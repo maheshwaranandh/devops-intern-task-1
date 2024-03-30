@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, Flask!"
+    return "Hello, Flask!       Try this: At the end of ip address add /greet/your_name"
 
 @app.route("/hello")
 def hello():
